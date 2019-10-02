@@ -1,0 +1,100 @@
+.presentation {
+  display: grid;
+  grid-auto-rows: 7.8in;
+}
+
+.slidefg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 2.17in;
+  grid-gap: 5px;
+}
+
+div :not(.presentation):not(.slidefg) {
+  border-radius: 25px;
+}
+
+.slideimg {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: #631A35;
+  padding-top: 2.17in;
+  padding-left: 0.3in;
+  padding-right: 0.3in;
+  color: #FFF;
+  font-size: 20pt;
+}
+
+.slidehdr {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 0.3in;
+  background-color: rgb(41, 207, 195);
+  color: #FFF;
+  font-size: 32pt;
+  text-align: center;
+}
+
+.slidecap {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  padding: 0.3in;
+  background-color: rgb(255, 238, 170);
+  color: rgb(99, 26, 53);
+  font-size: 20pt;
+  text-align: center;
+}
+
+#prestitle {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  padding-top: 2.5in;
+  background-color: #006693;
+  color: #FFF;
+  font-size: 36pt;
+  text-align: center;
+}
+
+#prestopbox {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: rgb(166, 28, 73);
+}
+
+#prescapt {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: rgb(255, 238, 170);
+  font-size: 24pt;
+  padding-top: 1.5in;
+  text-align: center;
+}
+
+li.listhead {
+  list-style: none;   /* This setting is necessary even though it's a list item rule as opposed to a list rule */
+  margin-left: -32px;
+  font-weight: bold;
+} 
+
+/*
+app colors
+
+libby face rgb(255, 238, 170);
+libby ribbon rgb(41, 207, 195);
+libby hair rgb(166, 28, 73);
+libby back cover rgb(41, 207, 195);
+libby front cover rgb(35, 176, 167);
+libby book spine rgb(38, 191, 181);
+libby bkgnd #631A35; 
+bkgnd might be same as libby eye/mouth color rgb(99,26,53);
+
+overdrive blue #006693; possibly also rgb(0,101,149);
+*/
