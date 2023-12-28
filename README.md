@@ -1,2 +1,2 @@
 # tm-pres-bcpl-19
-digital library training presentation
+Yet another attempt of mine to avoid PowerPoint and make presentation slides from scratch in HTML. Took some screenshots of Libby and OverDrive App workflows/clickthrus on mobile and wrote a CSS thinking I'd make a North Carolina Digital Library teaching tool with all of it, but, the screenshots are not included in the repo in case copyright is an issue....
